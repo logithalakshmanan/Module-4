@@ -27,4 +27,4 @@ You're out of list range
 
 
 ## Result
- File Handling in Python: Count Lines Not Starting with 'T' is verified
+ File Handling in Python: Count Lines Not Starting with 'T' is verified.
