@@ -10,9 +10,25 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
+dict1 = eval(input())
+dict2 = eval(input())
 
-Add code here
+# Merge dict2 into dict1
+dict2.update(dict1)
+
+print(dict2)
 
 ## Output
+	Input	Expected	Got	
+{1:10,2:20,3:30}
+{5:50,2:"two"}
+{5: 50, 2: 20, 1: 10, 3: 30}
+{5: 50, 2: 20, 1: 10, 3: 30}
+{'a':'apple','p':'papaya'}
+{'b':'banana','p':'pomogranate','m':'mango'}
+{'b': 'banana', 'p': 'papaya', 'm': 'mango', 'a': 'apple'}
+{'b': 'banana', 'p': 'papaya', 'm': 'mango', 'a': 'apple'}
+
 
 ## Result
+Two dictionaries are merged using dictionary operations 
