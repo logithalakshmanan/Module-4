@@ -11,8 +11,21 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+L=['laptop','mobile','pen']
+try:
+    print(L[4])
+except IndexError:
+    print("check index range")
 
 ## Output
+	Input	Expected	Got	
+['laptop','mobile','pen']
+check index range
+check index range
+[1,2,3]
+check index range
+check index range
 
 ## Result
+Exception Handling in Python: Avoiding Index Errors is verified
+
