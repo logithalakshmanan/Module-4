@@ -30,9 +30,19 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+d={1:10,2:20,3:30,4:40,5:50,6:60}
+sorted_keys=sorted(d.keys())
+print("Keys are")
+for key in sorted_keys:
+    print(key,end=' ')
 
 ## Sample Output
+	Expected	Got	
+Keys are
+1 2 3 4 5 6
+Keys are
+1 2 3 4 5 6
 
 ## Result
+Dictionary-Python Program to Sort a Dictionary by Keys and Values ia verified
 
